@@ -20,15 +20,15 @@ body{
 
 }
 .contenedor{
-    width: 1200px;
-    margin: 0 auto;
+   
 }
 
 header{
+    width: 1200px;
+    margin: 0 auto;
     background: var(--yellow);
     height: 100px;
     position: relative;
-    margin-top: 75px;
     border-radius: 10px;
 }
 header h1{
@@ -64,7 +64,7 @@ header nav>ul>li>a{
     text-transform: uppercase;
 }
 header nav>ul>li>a:hover{
- background: linear-gradient(0deg, rgba(242,121,15,1) 0%, rgba(242,179,61,1) 100%);
+ background: linear-gradient(0deg, var(--orange)  0%, var(--yellow) 100%);
 }
 header nav>ul>li>a:active{
     background: var(--orange);
@@ -109,14 +109,68 @@ header nav>ul>li:hover .submenu{
 .submenu li a:active{
     background:var(--yellow);
 }
-
+.hero{
+    background: url(../imgs/hero.png );
+    height: 514px;
+    width: 100%;
+    padding-top: 75px;
+    position: relative;
+    background-size: cover;
+    margin-bottom: 40px;
+}
+.hero img {
+    width: 360px;
+    height: 540px;
+    position: absolute;
+    right: 60px;
+    bottom: -30px;
+}
+.hero h2{
+    font-size: 49px;
+    color: var(--whitish);
+    position: absolute;
+    width: 600px;
+    left:225px;
+    top: 225px;
+}
+.hero p{
+    font-size: 25px;
+    color: var(--whitish);
+    position: absolute;
+    width: 600px;
+    left:225px;
+    top: 375px;
+}
+.hero>a{
+    font-size: 25px;
+    color:var(--whitish);
+    text-decoration: none;
+    display: block;
+    background: var(--terra);
+    padding: 20px 25px;
+    border-radius: 10px;
+    position: absolute;
+    left:225px;
+    top: 475px;
+}
 
 main {
+    margin: 0 auto;     
     padding: 15px;
 }
 main .hero img{
     width: 100%;
 }
+.events ul li{
+    border-radius: 10px;
+    overflow: hidden;
+    width: 271px;
+    height: 127px;
+}
+.events ul li img{
+        width: 100%;
+}
+
 
 footer{
     background: #59463F;
