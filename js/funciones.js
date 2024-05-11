@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function(){
 //EMPIEZA ACÀ
-  let glide = new Glide(".glide",{
+  let glide =  new Glide(".glide",{
     type: "carousel",
     perView: 4,
     gap:10,

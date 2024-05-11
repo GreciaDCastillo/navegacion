@@ -227,17 +227,26 @@ main .hero img{
     background-color: var(--yellow);
     color: var(--whitish);
 }
-.events{
-    background: var(--whitish);
-}
-.events ul li {
-    margin: 50px auto;
+.events_glide ul li{
     border-radius: 25px;
     overflow: hidden;
-    height: 180px;
-    width: 341px; 
-
+    height: 150px;
+    width: 300px;
 }
+.events_glide ul li img{
+    width: 100%;
+}
+.nav_carrusel{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.nav_carrusel button{
+    color: var(--whitish);
+    border-radius: 50px;
+    justify-content: center;
+}
+
 footer{
     position: relative;
     background: var(--terra);
