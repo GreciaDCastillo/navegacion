@@ -5,10 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bezier Bar</title>
-    <link rel="stylesheet" href="node_modules/normalize.css/normalize.css">
-    <link rel="stylesheet" href="node_modules/animate.css/animate.min.css">
-    <link rel="stylesheet" href="node_modules/@glidejs/glide/dist/css/glide.core.min.css">
-    <link rel="stylesheet" href="node_modules/@glidejs/glide/dist/css/glide.theme.min.css">
+    <link rel="stylesheet" href="/node_modules/normalize.css/normalize.css">
+    <link rel="stylesheet" href="/node_modules/animate.css/animate.min.css">
+    <link rel="stylesheet" href="/node_modules/@glidejs/glide/dist/css/glide.core.min.css">
+    <link rel="stylesheet" href="/node_modules/@glidejs/glide/dist/css/glide.theme.min.css">
     <link rel="stylesheet" href="css/estilos.css">
     <script src="node_modules/@glidejs/glide/dist/glide.min.js"></script>
     <script src="js/funciones.js"></script>
@@ -16,64 +16,68 @@
 
 <body>
     <div class="contenedor">
-        <div class="hero">
-            <header>
-                <h1><a href="">Bezier Bar</a></h1>
+        <header>
+            <h1><a href="">Bezier Bar</a></h1>
 
-                <nav class="menu_principal">
-                    <ul>
-                        <li><a href="">Menú <span class="caret_down"></span></a>
-                            <ul class="submenu">
-                                <li><a href="">Bebidas</a></li>
-                                <li><a href="">Comida</a></li>
-                                <li><a href="">Postres</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="">Eventos <span class="caret_down"></span></a>
-                            <ul class="submenu">
-                                <li><a href="">Promociones</a></li>
-                                <li><a href="">Conciertos</a></li>
-                                <li><a href="">Degustación</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="">Merchandising</a></li>
-                        <li><a href="">Contacto</a></li>
+            <nav class="menu_principal">
+                <hr>
+                <ul class="container">
+                
+                    <li class="boton_menu"><a href="">Menú <span class="caret_down"></span></a>
+                    <ul class="submenu">
+                        <li><a href="">Bebidas</a></li>
+                        <li><a href="">Comida</a></li>
+                        <li><a href="">Postres</a></li>
                     </ul>
-                </nav>
-            </header>
-            <img src="imgs/mug-with-beer-white-background-beautiful-foam-drops-moisture-glass.png" alt="">
-            <h2>Diseña tu próxima experiencia inolvidable</h2>
-            <p>Cada detalle cuenta en tu próximo encuentro creativo.  Conecta, comparte y disfruta.</p>
-            <a href="">Reserva ahora y comienza a crear</a>
+                    </li>
+                    <li class="boton_menu"><a href="">Eventos <span class="caret_down"></span></a>
+                    <ul class="submenu">
+                        <li><a href="">Promociones</a></li>
+                        <li><a href="">Conciertos</a></li>
+                        <li><a href="">Degustación</a></li>
+                    </ul>
+                    </li>
+                    <li class="boton_menu"><a href="">Merchandising</a></li>
+                    <li class="boton_menu"><a href="">Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
+
         </div>
-
-        <main>
-            <div class="events glide">
-                <div class="glide__track" data-glide-el="track">
-                    <ul class="glide__slides">
-                        <li class="glide__slide"><img
-                                src="imgs/eventos/DALL·E 2024-03-31 21.52.00 - Illustrate a close-up horizontal scene in a creative bar, focusing on a table where a group of designers are gathered. The table is adorned with artis.webp"
-                                alt=""></li>
-                        <li class="glide__slide"><img
-                                src="imgs/eventos/DALL·E 2024-03-31 21.52.02 - Create a horizontal image focusing on the hands of a person at a creative bar, gently holding an intricately designed cocktail glass. The drink is vib.webp"
-                                alt=""></li>
-                        <li class="glide__slide"><img
-                                src="imgs/eventos/DALL·E 2024-03-31 21.52.04 - Visualize a close-up, horizontal scene on a small stage in a creative bar, focusing on the details of a microphone stand and the ambient lighting. The.webp"
-                                alt=""></li>
-                        <li class="glide__slide"><img
-                                src="imgs/eventos/DALL·E 2024-03-31 21.52.05 - Craft a horizontal image capturing an intimate moment at a creative bar, with a close-up view of two people engaging in a quiet conversation. The focu.webp"
-                                alt=""></li>
-                        <li class="glide__slide"><img
-                                src="imgs/eventos/DALL·E 2024-03-31 21.52.02 - Create a horizontal image focusing on the hands of a person at a creative bar, gently holding an intricately designed cocktail glass. The drink is vib.webp"
-                                alt=""></li>
-                    </ul>
+        <div class="gradient">
+            <main>
+                <div class="hero">
+                    <img src="imgs/wooden-table-with-blurred-restaurant-scene.jpg" alt="">
                 </div>
-                <nav class="nav_carrusel glide__arrows" data-glide-el="controls">
-                    <button class="glide__arrow glide__arrow--left" data-glide-dir="<">Anterior</button>
-                    <button class="glide__arrow glide__arrow--right" data-glide-dir=">">Siguiente</button>
-                </nav>
-            </div>
-        </main>
+                <div class="imagen2">
+                    <img src="imgs/mug-with-beer-white-background-beautiful-foam-drops-moisture-glass.png" alt="">
+                    
+                </div>
+                <div class="events glide">
+                    <div class="glide__track" data-glide-el="track">
+                        <ul class="glide__slides">
+                            <li class="glide__slide"><img src="imgs/eventos/DALL·E 2024-03-31 21.52.00 - Illustrate a close-up horizontal scene in a creative bar, focusing on a table where a group of designers are gathered. The table is adorned with artis.webp" alt=""></li>
+                            <li class="glide__slide"><img src="imgs/eventos/DALL·E 2024-03-31 21.52.02 - Create a horizontal image focusing on the hands of a person at a creative bar, gently holding an intricately designed cocktail glass. The drink is vib.webp" alt=""></li>
+                            <li class="glide__slide"><img src="imgs/eventos/DALL·E 2024-03-31 21.52.04 - Visualize a close-up, horizontal scene on a small stage in a creative bar, focusing on the details of a microphone stand and the ambient lighting. The.webp" alt=""></li>
+                            <li class="glide__slide"><img src="imgs/eventos/DALL·E 2024-03-31 21.52.05 - Craft a horizontal image capturing an intimate moment at a creative bar, with a close-up view of two people engaging in a quiet conversation. The focu.webp" alt=""></li>
+                            <li class="glide__slide"><img src="imgs/eventos/DALL·E 2024-03-31 21.52.07 - Craft a horizontal image capturing an intimate moment at a creative bar, with a close-up view of two people engaging in a quiet conversation. The focu.webp" alt=""></li>
+                        </ul>
+                    </div>
+                    <nav class="nav__carrusel glide__arrows" data-glide-el="controls">
+                        <button class="glide__arrow glide__arrow--left" data-glide-dir="">Anterior</button>
+                        <button class="glide__arrow glide__arrow--right" data-glide-dir="">Siguiente</button>
+                    </nav>
+                </div>
+                <div class="contenido">
+                    <div class="texto">
+                        <h4>ven y disfruta de la mejor atmosfera</h4>
+                    </div>
+
+                    <button><a href=""></a>Más detalles</button> 
+
+                </div>
+            </main>
+        </div>
         <footer>
             <nav class="redes_sociales">
                 <ul>
